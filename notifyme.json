@@ -1,0 +1,10 @@
+{
+  "areas": {
+    "Nsukka": {
+      "status": "ON"
+    },
+    "Enugu": {
+      "status": "OFF"
+    }
+  }
+}
