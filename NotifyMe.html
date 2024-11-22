@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Power Alert</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 20px;
+    }
+    select, button {
+      padding: 10px;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Power Alert</h1>
+  <p>Select your area to check the power status:</p>
+  <select id="areaDropdown">
+    <option value="">--Select Area--</option>
+    <option value="Nsukka">Nsukka</option>
+    <option value="Enugu">Enugu</option>
+  </select>
+  <button id="checkStatus">Check Power Status</button>
+  <p id="status">Status: Unknown</p>
+
+  <script src="app.js"></script>
+</body>
+</html>
